@@ -1,0 +1,1032 @@
+/*srart main*/
+
+body
+{
+	font-family:"Open Sans";
+	font-size:15px;
+	color:#686868;
+	font-weight:300;
+	font-style:normal;
+	/*height:10000px;*/
+}
+
+p
+{
+	opacity:0.7;
+}
+
+button
+{
+	cursor:pointer;
+}
+
+.container
+{
+	width:1100px;
+	margin:0 auto;
+}
+
+ul
+{
+	list-style:none;
+}
+/*end main*/
+
+/*start header*/
+
+
+.header
+{
+	overflow:hidden;
+	padding:20px;
+}
+
+.header .logo
+{
+	float:left;
+	text-transform:uppercase;
+	width:20%;
+	letter-spacing:5px;
+}
+
+.header .navbar
+{
+	float:right;
+	color:#686868;
+	width:80%;
+	margin-top:10px;
+}
+
+.header .navbar ul
+{
+	float:right;
+}
+
+.header .navbar li
+{
+	float:left;
+}
+
+.header .navbar ul li a
+{
+	text-decoration:none;
+	padding-right:50px;
+	color:#656565;
+	text-transform:uppercase;
+	font-weight:300;
+}
+
+.header .navbar #icon
+{
+	font-size:5px;
+	padding-right:2px;
+	margin-top:5px;
+	color:#686868;
+}
+
+.header .navbar ul li a:hover
+{
+	color:#F1A364;
+}
+
+.header .navbar #active
+{
+	color:#F1A364;
+}
+
+/*end header*/
+
+/*start info*/
+
+.info
+{
+	background-image:url('slider-background.jpg');
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	height:670px;
+	color:#fff;
+}
+
+.info .intro
+{
+	text-align:center;
+	padding-top:200px;
+}
+.info .intro p:first-of-type
+{
+	text-transform:uppercase;
+	font-weight:bold;
+	border-bottom:1px solid #fff;
+	padding-bottom:7px;
+	width:73px;
+	margin:0 auto;
+	word-spacing:6px;
+}
+
+.info .intro h3
+{
+	font-size:80px;
+	text-transform:uppercase;
+	margin:0;
+	padding:15px 0 30px 0;
+}
+
+.info .intro span
+{
+	color:#F1A364;
+}
+
+.info .intro p:last-of-type
+{
+	width:62%;
+	margin:0 auto;
+	font-size:20px;
+	line-height:1.7
+}
+
+/*end info*/
+
+/*start talk*/
+
+.talk
+{
+	padding:70px 0 90px 0;
+	text-align:center;
+}
+
+.talk .fp
+{
+	color:#323232;
+	font-size:40px;
+	font-weight:normal;
+	word-spacing:10px;
+	letter-spacing:7px;
+	margin-bottom:65px;
+}
+
+.talk .sp
+{
+	width:62%;
+	margin:0 auto;
+	font-size:18px;
+	line-height:2.2;
+	color:#686868;
+	letter-spacing:0.7px;
+	margin-bottom:30px;
+}
+
+.talk .thp
+{
+	width:66%;
+	margin:0 auto;
+	font-size:17px;
+	line-height:2.2;
+	color:#686868;
+	letter-spacing:0.7px;
+	margin-bottom:50px;
+}
+
+.talk button
+{
+	text-transform:uppercase;
+	background:#F77309;
+	color:#fff;
+	padding:20px 25px;
+	border:0;
+	border-radius:35px;
+	word-spacing:2px;
+	letter-spacing:2px;
+	margin:20px 0;
+}
+
+/*end talk*/
+
+/*start features*/
+
+.features
+{
+	padding:100px 0;
+	overflow:hidden;
+	background:#F4F4F4;
+}
+
+.features .feat
+{
+	float:left;
+	width:33.3333%;
+}
+
+
+.features .feat i
+{
+	color:#F77309;
+	margin-right:20px;
+	font-size:32px;
+}
+
+
+.features .feat span
+{
+	color:#323232;
+	font-size:20px;
+	letter-spacing:2px;
+}
+
+.features .feat p
+{
+	margin-left:55px;
+	line-height:1.8;
+	padding-top:8px;
+	letter-spacing:0.2px;
+	color:#686868;
+}
+
+.features .feat .last
+{
+	margin-left:60px;
+}
+
+
+/*end features*/
+
+
+/*start projects*/
+
+.projects
+{
+	padding:100px 0;
+	overflow:hidden;
+}
+
+
+.projects .nabza
+{
+	text-align:center;
+}
+
+.projects h1
+{
+	color:#323232;
+	text-transform:uppercase;
+	letter-spacing:5px;
+}
+
+.projects button
+{
+	margin:30px 0 80px 0;
+	background:#323232;
+	border:0;
+	padding:5px 10px;
+	text-transform:uppercase;
+	font-size:10px;
+	letter-spacing:1px;
+	border-radius:15px;
+	color:#EFEFDD;
+	font-weight:bold;
+}
+
+.projects button:hover
+{
+	background:none;
+	color:#323232;
+}
+
+.projects #load
+{
+	background:none;
+	color:#686868;
+	text-align:center;
+	margin:45px 0 50px -50px;
+	font-size:12px;
+	font-weight:normal;
+}
+
+.projects img
+{
+	width:100%;
+	cursor:pointer;
+}
+
+
+.projects .bigimg
+{
+	float:left;
+	width:49.4%;
+	margin-right:0.3%;
+	/*margin-bottom:0.3%;*/
+	overflow:hidden;
+}
+
+.projects .smallimg
+{
+	float:left;
+	width:49.4%;
+	margin-bottom:0.1%;
+	overflow:hidden;
+}
+
+.projects .smallimg .sm 
+{
+	float:left;
+	width:50%;
+	margin-bottom:0.1%;
+	display:block;
+}
+
+
+.projects .smallimg .lg
+{
+	float:left;
+	width:49.4%;
+	margin-left:0.6%;
+}
+
+.projects .smallimg .sm #noma
+{
+	padding-bottom:1px;
+}
+
+.projects .smallimg .new
+{
+	margin-right:0.6%;
+	margin-left:0;
+}
+
+.projects .smallimg #last
+{
+	width:49.4%;
+	margin-left:0.6%;
+}
+
+.projects a
+{
+	margin-top:5000px;
+	text-align:center
+}
+/*end projects*/
+
+/*start about*/
+
+.about
+{
+	overflow:hidden;
+	padding-bottom:100px;
+}
+
+.about .we
+{
+	float:left;
+	width:35%;
+	margin-right:7%;
+}
+
+.about .our
+{
+	float:left;
+	width:58%;
+}
+
+.about .we h1
+{
+	margin-bottom:50px;
+	color:#323232;
+	font-size:35px;
+	letter-spacing:3px;
+	word-spacing:4px;
+	font-weight:normal;
+}
+
+.about .we p
+{
+	letter-spacing:1px;
+	font-size:17px;
+}
+.about .our p
+{
+	line-height:1.8;
+	color:#686868;
+	margin-bottom:25px;
+	word-spacing:1px;
+}
+
+.about .our p:last-of-type
+{
+	font-style:italic;
+}
+
+.about .our span
+{
+	color:#323232;
+	font-weight:bold;
+}
+
+.about .our a
+{
+	text-decoration:none;
+	color:#F77309;
+}
+/*end about*/
+
+
+/*start team*/
+
+.team
+{
+	padding:50px 0;
+	overflow:hidden;
+}
+
+.team h1
+{
+	margin-bottom:40px;
+	color:#323232;
+	font-size:40px;
+	letter-spacing:3px;
+	word-spacing:4px;
+	font-weight:normal;
+	text-align:center;
+}
+
+.team p
+{
+	line-height:1.8;
+	padding-bottom:65px;
+	word-spacing:1px;
+	font-size:20px;
+	width:65%;
+	margin:0 auto;
+	text-align:center;
+	color:#686868;
+}
+
+.team .tm
+{
+	float:left;
+	width:23%;
+	margin-left:1%;
+	margin-right:1%;
+}
+
+.team img
+{
+	width:100%;
+}
+
+.team .tm h3
+{
+	text-align:center;
+	margin-bottom:10px;
+	font-size:20px;
+	letter-spacing:2px;
+	word-spacing:3px;
+	font-weight:normal;
+	color:#323232;
+	padding-top:10px;
+}
+
+.team .tm p
+{
+	font-size:15px;
+}
+
+/*end team*/
+
+
+/*start counter*/
+
+.counter
+{
+	background-image:url('fun-facts.jpg');
+	height:504px;
+	background-repeat:no-repeat;
+	background-color: rgb(255, 255, 255, 0.7);
+	background-attachment:fixed;
+	/*position:relative;*/
+	overflow:hidden;
+}
+
+.counter .count
+{
+	float:left;
+	width:25%;
+	text-align:center;
+	margin-top:18%;
+}
+
+.counter .count h1
+{
+	margin-bottom:20px;
+	font-size:60px;
+	letter-spacing:2px;
+	word-spacing:3px;
+	font-weight:normal;
+	color:#323232;
+}
+
+.counter .count p
+{
+	color:#686868;
+}
+/*end counter*/
+
+
+/*start saying*/
+
+.saying
+{
+	padding:100px 0 80px 0;
+	text-align:center;
+}
+
+.saying h1
+{
+	margin-bottom:35px;
+	font-size:45px;
+	letter-spacing:5px;
+	word-spacing:3px;
+	font-weight:normal;
+	color:#323232;
+}
+
+.saying p
+{
+	color:#686868;
+	word-spacing:3px;
+	letter-spacing:1.2px;
+	font-size:20px;
+	padding-bottom:50px;
+}
+
+.saying img
+{
+	border-radius:50%;
+	margin-bottom:15px;
+}
+
+.saying .people
+{
+	letter-spacing:2px;
+	text-transform:uppercase;
+	padding:15px 0 50px 0;
+	font-size:13px;
+}
+
+.saying .people span:first-of-type
+{
+	color:#F77309;
+}
+
+.saying .people span
+{
+	opacity:0.7;
+}
+
+.saying .people p
+{
+	text-transform:none;
+	font-style:italic;
+	padding-top:20px;
+	line-height:1.8;
+	color:#323232;
+	letter-spacing:0.7px;
+	padding-bottom:10px;
+}
+
+.saying .people i
+{
+	color:#323232;
+}
+
+/*end saying*/
+
+
+/*start brands*/
+
+.brands
+{
+	background:#ED862A;
+	padding:20px 0;
+	overflow:hidden;
+}
+
+
+
+.brands .brnd
+{
+	float:left;
+	width:16.6666%;
+}
+
+.brands img
+{
+	width:50%;
+	margin-left:50px;
+}
+
+/*end brands*/
+
+
+/*start journal*/
+
+.journal
+{
+	padding:100px 0;
+	overflow:hidden;
+	text-align:center;
+}
+
+.journal h1
+{
+	padding-bottom:70px;
+	font-size:40px;
+	letter-spacing:5px;
+	font-weight:normal;
+	color:#323232;
+	text-align:center;
+}
+
+.journal .jour
+{
+	float:left;
+	width:31.3333%;
+	margin-left:1%;
+	margin-right:1%;
+	padding-bottom:70px;
+}
+
+.journal img
+{
+	width:100%;
+}
+
+.journal .jour p:first-of-type
+{
+	text-transform:uppercase;
+	letter-spacing:1.7px;
+	padding:15px 0 10px 0;
+}
+
+.journal .jour p:last-of-type
+{
+	letter-spacing:1px;
+	line-height:1.8;
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	font-size:14px;
+	padding:15px 0 50px 0;
+}
+
+.journal .jour a
+{
+	text-decoration:none;
+	color:#323232;
+	font-weight:600;
+	letter-spacing:0.7px;
+	word-spacing:1.5px;
+	font-size:18px;
+	opacity:0.8;
+}
+
+.journal .jour a:hover
+{
+	color:#F77309;
+}
+
+.journal .jour span
+{
+	color:#999;
+	text-transform:uppercase;
+	opacity:0.7;
+	font-size:12px;
+}
+
+.journal i
+{
+	color:#999;
+	font-size:12px;
+	padding-right:5px;
+}
+
+.journal .btn
+{
+	padding:100px 0;
+}
+
+.journal .btn button
+{
+	text-transform:uppercase;
+	background:#50af3d;
+	color:#fff;
+	padding:20px 35px;
+	letter-spacing:1px;
+	border:0;
+	border-radius:100px;
+	font-size:14px;
+	font-weight:600;
+	cursor:pointer;
+}
+
+.journal .btn button:hover
+{
+	background:#449733;
+}
+
+/*end journal*/
+
+
+/*start contact*/
+
+.contact 
+{
+	padding-top:20px;
+	overflow:hidden;
+}
+
+.contact .cont
+{
+	float:left;
+	width:33.3333%;
+	text-align:center;
+	padding-top:20px;
+	padding-bottom:70px;
+	
+}
+
+.contact h1
+{
+	padding-bottom:70px;
+	font-size:40px;
+	letter-spacing:5px;
+	font-weight:normal;
+	color:#323232;
+	text-align:center;
+	text-transform:uppercase;
+}
+
+.contact i
+{
+	color:#303030;
+	border:1px solid #303030;
+	border-radius:50%;
+	font-size:20px;
+	padding:20px 22px;
+	text-align:center;
+	margin-bottom:50px;
+}
+.contact i:hover{color: #fff;background: #303030}
+
+.contact .cont a
+{
+	text-decoration:none;
+	color:#F77309;
+	opacity:0.8;
+}
+
+.contact .cont a:hover
+{
+	color:#323232;
+}
+
+.contact .twasol
+{
+	height:617px;
+}
+
+.contact .formaction
+{
+	float:left;
+	width:40%;
+	padding:70px 70px 25px 70px;
+}
+
+.contact .formaction p
+{
+	text-align:center;
+	color:#323232;
+	padding:10px 0 40px 0;
+	font-weight:600;
+	font-size:15px;
+	letter-spacing:1px;
+}
+
+.contact .formaction input
+{
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	border-bottom:1px solid #DADADA;
+}
+
+.contact .formaction input[type="text"]
+{
+	width:45%;
+	margin-bottom:35px;
+	padding:12px 0;
+}
+
+.contact .formaction input[name="name"]
+{
+	margin-right:1.5%;
+}
+
+.contact .formaction input[name="email"]
+{
+	margin-left:1.5%;
+}
+
+.contact .formaction input[name="subject"], .contact .formaction textarea
+{
+	width:94.5%;
+	display:block;
+}
+
+.contact .formaction textarea
+{
+	margin-bottom:35px;
+	padding:12px 0;
+	height:150px;
+	border:0;
+	border-bottom:1px solid #DADADA;
+	color:rgba(148, 147, 157, 0.8);
+}
+
+.contact .formaction input[type="submit"]
+{
+	margin:0 43%;
+	background:#323232;
+	color:#fff;
+	opacity:1;
+	padding:12px 17px;
+	border-radius:25px;
+	letter-spacing:1px;
+	font-size:13px;
+	margin-bottom:20px;
+}
+
+.contact .formaction input[type="submit"]:hover
+{
+	background:#202020;
+}
+
+.contact .map
+{
+	float:left;
+	width:50%;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+.contact .map img
+{
+	width:100%;
+}
+
+/*end contact*/
+
+
+
+
+/*start twasol*/
+
+ /*.twasol
+{
+	overflow:hidden;
+}
+
+.twasol .formaction
+{
+	float:left;
+	width:40%;
+	padding:70px 70px 45px 70px;
+}
+
+.twasol .formaction p
+{
+	text-align:center;
+	color:#323232;
+	padding:10px 0 40px 0;
+	font-weight:600;
+	font-size:15px;
+	letter-spacing:1px;
+}
+
+.twasol .formaction input
+{
+	border-top:0;
+	border-left:0;
+	border-right:0;
+	border-bottom:1px solid #DADADA;
+}
+
+.twasol .formaction input[type="text"]
+{
+	width:45%;
+	margin-bottom:35px;
+	padding:12px 0;
+}
+
+.twasol .formaction input[name="name"]
+{
+	margin-right:1.5%;
+}
+
+.twasol .formaction input[name="email"]
+{
+	margin-left:1.5%;
+}
+
+.twasol .formaction input[name="subject"], .twasol .formaction textarea
+{
+	width:94.5%;
+	display:block;
+}
+
+.twasol .formaction textarea
+{
+	margin-bottom:35px;
+	padding:12px 0;
+	height:150px;
+	border:0;
+	border-bottom:1px solid #DADADA;
+	color:rgba(148, 147, 157, 0.8);
+}
+
+.twasol .formaction input[type="submit"]
+{
+	margin:0 43%;
+	background:#323232;
+	color:#fff;
+	opacity:1;
+	padding:12px 17px;
+	border-radius:25px;
+	letter-spacing:1px;
+	font-size:13px;
+	margin-bottom:20px;
+}
+
+.twasol .formaction input[type="submit"]:hover
+{
+	background:#202020;
+}
+
+.twasol .map
+{
+	float:left;
+	width:50%;
+	background-image:url('Mora Demo – Mora Theme Demo.png');
+	background-size:cover;
+	height:614px;
+}
+
+.twasol .map img
+{
+	width:100%;
+	height:100%;
+}*/
+
+/*end twasol*/
+
+
+/*start rights*/
+
+.rights
+{
+	background:#323232;
+	background-attachment:fixed;
+	padding:60px 0;
+	text-align:center;
+	color:#fff;
+	margin-top:-25;
+}
+
+.rights h2
+{
+	letter-spacing:7px;
+	text-transform:uppercase;
+	font-size:30px;
+}
+
+.rights i
+{
+	padding:15px;
+}
+
+.rights p
+{
+	font-size:12px;
+	letter-spacing:2px;
+	opacity:0.5;
+	padding-top:5px;
+}
+
+.rights a
+{
+	text-decoration:none;
+	color:#fff;
+	opacity:0.9;
+}
+/*end rights*/
+
+
